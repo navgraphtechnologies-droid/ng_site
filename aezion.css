@@ -1,0 +1,226 @@
+ * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(248, 246, 243);
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+    nav ul li {
+        font-size: large;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        list-style: none;
+        padding: 20px;
+        margin: 20PX;
+
+    }
+
+
+    nav h1:first-child {
+        margin-right: auto;
+        margin-top: 20px;
+        padding-left: 120px;
+    }
+
+    .box1 {
+        background-color: rgb(166, 161, 192);
+        height: 100%;
+        display: flex;
+
+
+    }
+
+    .row {
+
+        justify-content: center;
+        padding-left: 120px;
+        padding-top: 200px;
+
+        height: auto;
+        width: 100%;
+
+
+    }
+
+    .column {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+
+    }
+
+
+    .box2 {
+        margin: 20px;
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        padding-left: 120px;
+        padding-right: 120px;
+
+    }
+
+    .box {
+        flex: 1;
+        border-radius: 20px;
+        height: auto;
+        width: 100%;
+        margin: 5px;
+        padding: 30px;
+    }
+
+    .box3 {
+        text-align: center;
+        font-size: larger;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        padding-left: 100px;
+    }
+
+    .promise {
+        display: flex;
+        margin-top: 50px;
+        padding-left: 120px;
+        padding-right: 120px;
+
+
+    }
+
+    .picture {
+        height: 100%;
+        width: 10%;
+        padding-right: 10px;
+        padding-left: 10px;
+        flex: 1;
+
+    }
+
+    .para {
+        font-size: large;
+        padding-left: 0px;
+        flex: 1;
+        font-size: large;
+    }
+
+
+    .promise1 {
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+
+        flex-wrap: wrap;
+        padding-left: 120px;
+        padding-right: 120px;
+
+    }
+
+    .pbox {
+        border: solid;
+        border-width: 1px;
+        border-color: rgb(216, 215, 215);
+        border-radius: 20px;
+        flex: 1;
+        height: auto;
+        margin: 20px;
+        padding: 80px;
+        padding-left: 20px;
+    }
+
+    .contact {
+        margin-top: 30px;
+        background-color: rgb(83, 79, 79);
+        color: rgb(241, 235, 235);
+        height: 100%;
+        display: flex;
+       padding-left: 100px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .h1 {
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+.h2{
+    margin-top: 150px;
+    margin-left: 0px;
+}
+    
+
+
+
+
+    @media screen and (max-width:800px) {
+
+        .promise1 {
+            flex-direction: column;
+
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .box1 {
+            flex-direction: column;
+        }
+
+        .row {
+            padding-left: 0px;
+        }
+
+        .box2 {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        nav ul li {
+            flex-direction: column;
+        }
+
+        nav ul {
+            flex-direction: column;
+        }
+
+        .promise {
+            flex-direction: column;
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 10px;
+        }
+
+        .picture {
+
+            height: 100%;
+            width: 90%;
+            padding-right: 0px;
+            padding-left: 0px;
+            flex: 1;
+        }
+
+        .para {
+            padding-right: 20px;
+        }
+
+        .contact {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .h1 {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+    }
